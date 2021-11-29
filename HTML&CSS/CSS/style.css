@@ -1,0 +1,121 @@
+body{
+    font-family: 'CarosBold',sans-serif;
+}
+.background{
+    margin: 20px 10px;
+    padding: 20px 15px;
+    
+}
+span{
+    cursor: pointer;
+    font-size: 16px;
+    color: #FF4800;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-top: 16px;
+}
+
+
+#boldbi_chat_icon{
+    position: fixed;
+    bottom: 22px;
+    z-index: 10000;
+    float: right;
+    right: 21px;
+    cursor: pointer;
+    vertical-align: middle !important;
+    margin: auto;
+}
+.form{
+    padding: 20px 0px 30px 0px;
+    font-family: 'Caros',sans-serif;
+    border-radius: 8px 8px 8px 8px;
+    display: inline-block;
+    text-align:center;
+    border: 1px solid wheat;  
+    margin-inline-start: 450px;
+    background-color: white;
+    
+}
+textarea{
+    overflow: auto;
+}
+#name,#email,#company,#phoneNo,#conditions,#message{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    
+}
+a{
+    line-height: 30px;
+    color: #FF4800;
+    text-decoration: none;
+}
+a:hover{
+    color: #ad3224;
+}
+button{
+    width: 178px;
+    height: 54px;
+    font-family: "Caros Medium", Caros;
+    font-size: 20px;
+    font-weight: 400;
+    padding: middle;
+    margin: 20px 0px 20px 0px;
+    color: #ffffff;
+    background-color: #ff4800;
+    border: 2px  #ff4800;
+    box-sizing: content-box;
+    vertical-align: baseline;
+    align-content: center;
+}
+
+button:hover{
+    background-color:white;
+    color: #FF4800;
+    cursor: not-allowed;
+}
+.container{
+    display: flex;
+    background-image: url('/Images/Vector-1.png');
+    background-attachment: fixed;
+    background-color:lightblue
+}
+
+#head2{
+    text-align: center;
+font-size: 36px;
+}
+.location{
+    display: flex;
+    
+}
+#location1,#location2,#location3{
+    margin: 20px;
+   border: 1px solid black;
+
+}
+.locations1{
+display: flex;
+}
+#location4,#location5{
+    margin: 20px;
+    border: 1px solid black;
+}
+.site{
+    color: #283a5e;
+}
+.footer1{
+    display: flex;
+    margin-right: 20px;
+    float: left;
+}
+.footer1:hover{
+    color: #FF4800;
+    cursor: pointer;
+}
+#icon #icon2 #icon3{
+    float: left;
+    margin-left: 30px;
+    
+}
